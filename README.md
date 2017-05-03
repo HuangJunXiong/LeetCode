@@ -7,4 +7,4 @@ Java solutions to LeetCode problems.
 |Array Partition I| 37ms|
 |Reshape the Matrix| 11ms|
 |K-diff Pairs in an Array| 33ms|
-|Subarray Sum Equals K| 580ms|
+|Subarray Sum Equals K| 580ms(192 ms)|
