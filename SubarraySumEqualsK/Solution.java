@@ -18,9 +18,8 @@ public class Solution {
 //        }
         int count = 0;
         int sum = 0;
-        if(nums.length == 1){
-            if(nums[0] == k)count++;
-        }else{
+        if(nums[0] == k)count++;
+        if(nums.length > 1){
             for (int i = 1; i < nums.length; i++) {
                 sum = 0;
                 for (int j = i; j >= 0; j--) {
@@ -30,7 +29,6 @@ public class Solution {
                     }
                 }
             }
-            if(nums[0] == k)count++; // 漏了一种情况 第一个等于k
         }
         return count;
     }
