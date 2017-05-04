@@ -9,3 +9,4 @@ Java solutions to LeetCode problems.
 |K-diff Pairs in an Array| 33ms|
 |Subarray Sum Equals K| 580ms(192 ms)|
 |Median of Two Sorted Arrays| 72ms|
+|Longest Substring Without Repeating Characters| 58ms|
